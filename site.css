@@ -1,0 +1,170 @@
+body{
+    
+}
+/* Page d'accueil */
+
+header{
+    width: 320.998px;
+    height: 111.658px;
+    transform: rotate(0.061deg);
+    flex-shrink: 0;
+    fill: #EDF6FF;
+}
+logo{
+    width: 83px;
+    height: 77px;
+    flex-shrink: 0;
+}
+h1{
+    width: 209px;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+bloc{
+    width: 254px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+galerie{
+    width: 319.251px;
+    height: 107.978px;
+    transform: rotate(-0.136deg);
+    flex-shrink: 0;
+}
+p{
+    width: 311px;
+    height: 262px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Jacques Francois";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Page des oeuvres */
+
+header{
+    width: 320px;
+    height: 65px;
+    flex-shrink: 0;
+    background: #E2F2F9;
+}
+h1{
+    width: 134px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+image{
+    width: 274px;
+    height: 197px;
+    flex-shrink: 0;
+}
+p{
+    width: 274px;
+    height: 58px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.72);
+    width: 206px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Jacques Francois";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Page contact */
+
+header{
+    width: 320px;
+    height: 65px;
+    flex-shrink: 0;
+    background: #E2F2F9;
+}
+h1{
+    width: 134px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h2{
+    width: 296px;
+    height: 78px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+formulaire{
+    width: 273px;
+    height: 35px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    p{ 
+        width: 188px;
+    height: 37px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }  
+}
+button{
+    width: 103px;
+    height: 30px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    p{
+        width: 122px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Kotta One";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+}
+footer{
+    width: 320px;
+    height: 127px;
+    flex-shrink: 0;
+    background: #5EA7C7;
+    p{color: #FFF;
+        font-family: "Kotta One";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
