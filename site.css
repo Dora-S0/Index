@@ -1,18 +1,24 @@
+* {
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    
+    width: 320px;
+    height: 568px;    
 }
 /* Page d'accueil */
 
 header{
-    width: 320.998px;
-    height: 111.658px;
+    width: 320px;
+    height: 58px;
     transform: rotate(0.061deg);
     flex-shrink: 0;
-    fill: #EDF6FF;
+    background-color: #EDF6FF;
 }
-logo{
-    width: 83px;
-    height: 77px;
+.accueil #logo{
+    width: 20px;
+    height: 30px;
     flex-shrink: 0;
 }
 h1{
@@ -24,7 +30,7 @@ h1{
     font-weight: 400;
     line-height: normal;
 }
-bloc{
+nav{
     width: 254px;
     height: 19px;
     flex-shrink: 0;
@@ -35,15 +41,15 @@ bloc{
     font-weight: 400;
     line-height: normal;
 }
-galerie{
+img galerie{
     width: 319.251px;
     height: 107.978px;
     transform: rotate(-0.136deg);
     flex-shrink: 0;
 }
-p{
-    width: 311px;
-    height: 262px;
+.présentation{
+    width: 31px;
+    height: 26px;
     flex-shrink: 0;
     color: #000;
     font-family: "Jacques Francois";
@@ -54,24 +60,7 @@ p{
 }
 /* Page des oeuvres */
 
-header{
-    width: 320px;
-    height: 65px;
-    flex-shrink: 0;
-    background: #E2F2F9;
-}
-h1{
-    width: 134px;
-    height: 36px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: "Kotta One";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-image{
+img{
     width: 274px;
     height: 197px;
     flex-shrink: 0;
@@ -93,23 +82,6 @@ p{
 }
 /* Page contact */
 
-header{
-    width: 320px;
-    height: 65px;
-    flex-shrink: 0;
-    background: #E2F2F9;
-}
-h1{
-    width: 134px;
-    height: 36px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: "Kotta One";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 h2{
     width: 296px;
     height: 78px;
