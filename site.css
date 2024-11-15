@@ -43,6 +43,8 @@ nav{
     line-height: normal;
 }
 nav ul li {
+  width: 1013px;
+  height: 47px;
   list-style-type: none;
   margin: 0;
   padding: 0;
