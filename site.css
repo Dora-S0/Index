@@ -27,8 +27,8 @@ h1{
     placer les titres au millieu
 }
 #logo{
-    width: 50px;
-    height: auto;
+    width: 83px;
+    height: 77px;
     flex-shrink: 0;
 }
 nav{
