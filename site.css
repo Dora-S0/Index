@@ -24,13 +24,13 @@ h1{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: inline;
     placer les titres au millieu
 }
 #logo{
     width: 50px;
     height: auto;
     flex-shrink: 0;
-    display : inline
 }
 nav{
     width: 254px;
