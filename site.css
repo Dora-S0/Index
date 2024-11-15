@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    width: 320px;
-    height: 568px;    
+    width: 1280px;
+    height: 832px;    
 }
 /* Page d'accueil */
 
 header{
-    width: 320px;
-    height: 58px;
+    width: 1280.516px;
+    height: 174.296px;
     flex-shrink: 0;
     background-color: #EDF6FF;
     display: flex;
@@ -49,27 +49,18 @@ nav ul li {
   display: inline;
 }
 img galerie{
-    width: 319.251px;
-    height: 107.978px;
-    transform: rotate(-0.136deg);
-    flex-shrink: 0;
+    width: 1273.547px;
+    height: 168.554px;
+    transform: rotate(-0.346deg);
+    flex-shrink: 0;    
 }
-.présentation{
-    width: 31px;
-    height: 26px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: "Jacques Francois";
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+
+
 /* Page des oeuvres */
 
 img{
-    width: 274px;
-    height: 197px;
+    width: 329px;
+    height: 258px;
     flex-shrink: 0;
 }
 p{
