@@ -61,7 +61,7 @@ img galerie{
 
 /* Page des oeuvres */
 
-img{
+.img{
     width: 329px;
     height: 258px;
     flex-shrink: 0;
