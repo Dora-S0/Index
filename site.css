@@ -30,6 +30,8 @@ h1{
     width: 50px;
     height: auto;
     flex-shrink: 0;
+    display : inline
+}
 nav{
     width: 254px;
     height: 19px;
