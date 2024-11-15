@@ -51,7 +51,7 @@ li{
     float:left;
 }
 
-.img galerie{
+img galerie{
     width: 1273.547px;
     height: 168.554px;
     transform: rotate(-0.346deg);
@@ -61,7 +61,7 @@ li{
 
 /* Page des oeuvres */
 
-.img{
+img{
     width: 329px;
     height: 258px;
     flex-shrink: 0;
