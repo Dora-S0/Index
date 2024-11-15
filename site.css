@@ -12,7 +12,6 @@ body{
 header{
     width: 320px;
     height: 58px;
-    transform: rotate(0.061deg);
     flex-shrink: 0;
     background-color: #EDF6FF;
     display: flex;
