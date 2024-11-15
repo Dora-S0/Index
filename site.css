@@ -15,7 +15,7 @@ header{
     transform: rotate(0.061deg);
     flex-shrink: 0;
     background-color: #EDF6FF;
-    display: inline;
+    display: inline-block;
 }
 h1{
     width: 209px;
