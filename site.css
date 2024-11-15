@@ -7,7 +7,7 @@ body{
 }
 /* Page d'accueil */
 
-.header{
+header{
     width: 1280.516px;
     height: 174.296px;
     flex-shrink: 0;
@@ -51,7 +51,7 @@ li{
     float:left;
 }
 
-img galerie{
+.img galerie{
     width: 1273.547px;
     height: 168.554px;
     transform: rotate(-0.346deg);
