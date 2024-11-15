@@ -1,11 +1,8 @@
-* {
-    margin: 15px;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
     width: 1280px;
-    height: 832px;    
+    height: 832px;
+    font-family: "Kotta One";
 }
 /* Page d'accueil */
 
@@ -19,7 +16,6 @@ header{
 h1{
     width: 209px;
     color: #000;
-    font-family: "Kotta One";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -36,7 +32,6 @@ nav{
     height: 19px;
     flex-shrink: 0;
     color: #000;
-    font-family: "Kotta One";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +87,6 @@ h2{
     height: 78px;
     flex-shrink: 0;
     color: #000;
-    font-family: "Kotta One";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -108,7 +102,6 @@ formulaire{
     height: 37px;
     flex-shrink: 0;
     color: #000;
-    font-family: "Kotta One";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -138,7 +131,6 @@ footer{
     flex-shrink: 0;
     background: #5EA7C7;
     p{color: #FFF;
-        font-family: "Kotta One";
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
