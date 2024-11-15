@@ -42,14 +42,19 @@ nav{
     font-weight: 400;
     line-height: normal;
 }
-nav ul li {
+nav ul {
   width: 1013px;
   height: 47px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: inline;
+  overflow:hidden;
 }
+li{
+    float:left;
+}
+
 img galerie{
     width: 1273.547px;
     height: 168.554px;
