@@ -7,7 +7,7 @@ body{
 }
 /* Page d'accueil */
 
-header{
+.header{
     width: 1280.516px;
     height: 174.296px;
     flex-shrink: 0;
