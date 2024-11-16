@@ -1,141 +1,178 @@
-
-body{
-    width: 1280px;
-    height: 832px;
-    font-family: "Kotta One";
-    color:black;
+/* Reset CSS */
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: "Kotta One", sans-serif;
+    color: black;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
 /* Page d'accueil */
-
-header{
-    width: 1280.516px;
-    height: 174.296px;
-    flex-shrink: 0;
-    background-color: #EDF6FF;
+header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EDF6FF;
+    padding: 20px;
 }
-h1{
-    width: 209px;
+
+header img#logo {
+    width: 160px;
+    height: 145px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 35px;
     color: #000;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-align: center;
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #c3d9f5;
+}
+
+.image-accueil {
+    width: 100%;
+    height: 200px ;
+}
+.présentation{
+    padding: 10px;
+}
+/* Page des œuvres */
+
+section#oeuvres h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #EDF6FF;
+}
+
+article.oeuvre {
+    display: inline-block;
+    width: 29%;
+    margin: 5px;
+    text-align: center;
+    background-color: #d9d9d9b8;
+    padding: 10px;
+}
+
+article.oeuvre img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article.oeuvre p {
+    margin-top: 10px;
+    font-family: "Jacques Francois", serif;
+    font-size: 15px;
+}
+
+/* Page contact */
+section#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #EDF6FF;
+}
+
+form {
+    max-width: 600px;
+    margin: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #0000001a;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #70a8ec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #567ba6;
+}
+
+/* Footer */
+footer {
+    background-color: #5EA7C7;
+    padding: 20px;
     text-align: center;
 }
-#logo{
-    width: 188px;
-    height: 161px;
-    flex-shrink: 0;
-    border-radius:150px;
-}
-nav{
-    width: 254px;
-    height: 19px;
-    flex-shrink: 0;
-    color: #000;
+
+footer address {
+    color: white;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-nav ul {
-  width: 1013px;
-  height: 47px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  overflow:hidden;
-}
-li{
-    float:left;
 }
 
-img galerie{
-    width: 1273.547px;
-    height: 168.554px;
-    transform: rotate(-0.346deg);
-    flex-shrink: 0;    
+footer address a {
+    color: white;
+    text-decoration: none;
 }
 
-
-/* Page des oeuvres */
-
-img{
-    width: 329px;
-    height: 258px;
-    flex-shrink: 0;
+footer address a:hover {
+    text-decoration: underline;
 }
-p{
-    width: 274px;
-    height: 58px;
-    flex-shrink: 0;
-    background: rgba(217, 217, 217, 0.72);
-    width: 206px;
-    height: 23px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: "Jacques Francois";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-/* Page contact */
-
-h2{
-    width: 296px;
-    height: 78px;
-    flex-shrink: 0;
-    color: #000;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-formulaire{
-    width: 273px;
-    height: 35px;
-    flex-shrink: 0;
-    background: #D9D9D9;
-    p{ 
-        width: 188px;
-    height: 37px;
-    flex-shrink: 0;
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }  
-}
-button{
-    width: 103px;
-    height: 30px;
-    flex-shrink: 0;
-    background: #D9D9D9;
-    p{
-        width: 122px;
-    height: 32px;
-    flex-shrink: 0;
-    color: #000;
-    font-family: "Kotta One";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+test à revoir: 
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
     }
-}
-footer{
-    width: 320px;
-    height: 127px;
-    flex-shrink: 0;
-    background: #5EA7C7;
-    p{color: #FFF;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+
+    article.oeuvre {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer address {
+        font-size: 14px;
     }
 }
