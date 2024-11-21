@@ -1,4 +1,5 @@
 /* Reset CSS */
+
 * {
     margin: 2px;
     padding: 0;
@@ -6,7 +7,6 @@
 }
 
 body {
-    font-family: "Kotta One", sans-serif;
     color: black;
     line-height: 1.6;
     background-color: #fff;
@@ -27,29 +27,37 @@ header img#logo {
     border-radius: 50%;
 }
 
+
+
 header h1 {
-    font-size: 35px;
     color: #000;
-    text-align: center;
-    flex-grow: 1;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;    
+    flex-grow: 1;    
+    font-family: "Kotta One", serif; 
+    font-style: italic;
 }
+
 
 nav ul {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
     list-style-type: none;
+
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 50px;
 }
 
 nav ul li a {
     color: #000000;
     text-decoration: none;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 0px 25px;
+    font-size: 42px;
     display: block;
 }
 
@@ -59,10 +67,12 @@ nav ul li a:hover {
 
 .image-accueil {
     width: 100%;
-    height: 200px ;
+    max-height: 200px;
+    object-fit: cover;
 }
 .présentation{
-    padding: 10px;
+    margin: 20px;
+    font-size: 21px;
 }
 /* Page des œuvres */
 
@@ -70,27 +80,33 @@ section#oeuvres h2 {
     text-align: center;
     margin-bottom: 20px;
     background-color: #EDF6FF;
+    font-size: 42px;
 }
 
 article.oeuvre {
     display: inline-block;
-    width: 29%;
-    margin: 5px;
+    width: 25%;
+    height: 220px;
     text-align: center;
-    background-color: #d9d9d9b8;
-    padding: 10px;
+    padding: 0;
+    margin: 45px;
 }
 
 article.oeuvre img {
     width: 100%;
-    height: auto;
-    border-radius: 5px;
+    height: 100%;
 }
 
 article.oeuvre p {
-    margin-top: 10px;
+    margin: 0;
+    margin-left: 0;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: -90px;
     font-family: "Jacques Francois", serif;
-    font-size: 15px;
+    font-size: 16px;
+    opacity: 0.8; /* Semi-transparent */
+    position: relative; /* Nécessaire pour le z-index */
 }
 
 /* Page contact */
@@ -98,15 +114,18 @@ section#contact h2 {
     text-align: center;
     margin-bottom: 20px;
     background-color: #EDF6FF;
+    font-size: 42px;
+}
+
+section#contact  h3 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family: "Kotta One", serif; 
 }
 
 form {
-    max-width: 600px;
-    margin: 15px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px #0000001a;
+    max-width: 800px;
+    font-size: 32px;    
 }
 
 form label {
@@ -118,22 +137,39 @@ form label {
 form input[type="text"],
 form input[type="email"] {
     width: 100%;
+    height: 50px;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    background-color: #D9D9D9;
+    color: #000
+}
+
+input::placeholder {
+    color: #000;
+    font-size: 32px; 
+    font-family: "Kotta One", serif;  
 }
 
 form input[type="checkbox"] {
-    margin-right: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+    background-color: #D9D9D9;
+    transform: scale(1.5);
+    border: 0px ;
+    border-radius: 0px;
+    cursor: pointer;
 }
 
 form input[type="submit"] {
-    background-color: #70a8ec;
-    color: white;
+    background-color: #D9D9D9;
+    color: black;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    font-size: 32px;
+    position: relative;
+    left: 97%;
+    font-family: "Kotta One", serif; 
 }
 
 form input[type="submit"]:hover {
@@ -142,14 +178,14 @@ form input[type="submit"]:hover {
 
 /* Footer */
 footer {
+    margin-top: 30px;
     background-color: #5EA7C7;
-    padding: 20px;
-    text-align: center;
 }
 
 footer address {
+
     color: white;
-    font-size: 16px;
+    font-size: 32px;
 }
 
 footer address a {
@@ -160,7 +196,7 @@ footer address a {
 footer address a:hover {
     text-decoration: underline;
 }
-test à revoir: 
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
@@ -176,3 +212,12 @@ test à revoir:
         font-size: 14px;
     }
 }
+
+  
+
+
+
+
+
+   
+   
