@@ -1,5 +1,5 @@
 /* Reset CSS */
-
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
 * {
     margin: 2px;
     padding: 0;
@@ -81,6 +81,7 @@ section#oeuvres h2 {
     margin-bottom: 20px;
     background-color: #5EA7C7;
     font-size: 42px;
+    font-weight: normal;
 }
 
 article.oeuvre {
@@ -115,6 +116,7 @@ section#contact h2 {
     margin-bottom: 20px;
     background-color: #5EA7C7;
     font-size: 42px;
+    font-weight: normal;
 }
 
 section#contact  h3 {
@@ -198,32 +200,44 @@ footer address a:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 480px) {
-    h1{
-       font-size: 25px; 
+@media (max-width: 580px) {
+    html, body{
+        overflow-x: hidden;
+    }
+    header h1{
+       font-size: 27px; 
     }
     nav ul {
         flex-direction:row;
         align-items: center;
         justify-content: center;
-
+        margin: 10px 0px;
+    }
+    nav ul li{
+        margin: 0px 25px;
+    }
+    nav ul li a{
+        font-size: 25px;
+        padding: 0px 0px;
     }
 
     article.oeuvre {
-        width: 100%;
+        width: 75%;
         margin-bottom: 20px;
     }
 
     footer address {
-        font-size: 14px;
+        font-size: 20px;
     }
-}
-
-  
-
-
-
-
-
-   
-   
+    form{
+        width: 100%;
+        padding: 10px;
+    }
+    form input[type="submit"]{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        left: 0px;
+        font-size: 28px;
+    }
+} 
