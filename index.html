@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie Dedal des couleurs</title>
     <link rel="stylesheet" href="site.css" type="text/css"/>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
+
+<!-- Verif newsletters -->
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('success')) {
+        alert('Votre demande de newsletters a été prise en compte !');
+    }
+</script>
 
 <!-- Page d'accueil -->
 <header>
@@ -29,8 +37,8 @@
     <br>Notre galerie est dédiée à l'exploration et à la célébration de la couleur sous toutes ses formes. Chaque exposition met en avant des artistes talentueux, émergents et établis, dont les œuvres captivantes invitent à la réflexion et à l'émotion.
     <br>Pour toute information, n’hésitez pas à contacter Paul Dechewsky, qui se fera un plaisir de vous guider dans votre découverte de l'art.
     <br>Nous vous invitons à venir découvrir notre espace chaleureux et dynamique, où l'art et la créativité s'épanouissent.
-    <br>Nous proposons des prestations tels que des rencontres avec des artistes célèbres, l'organisation d’un vernissage, des masterclass. <br> Pour en savoir plus, inscrivez-vous !
-    <br>Rejoignez-nous au Dedal des Couleurs pour une expérience artistique inoubliable !</p>
+    <br><br>Nous proposons des prestations tels que des rencontres avec des artistes célèbres, l'organisation d’un vernissage, des masterclass. Pour en savoir plus, inscrivez-vous !
+    <br><br>Rejoignez-nous au Dedal des Couleurs pour une expérience artistique inoubliable !</p>
 </section>
 
 <!-- Page des œuvres -->
@@ -39,32 +47,32 @@
 
     <article class="oeuvre">
         <img src="images_site/nature-morte-à-la-pipe.jpeg" alt="tableau Soutine - Nature morte à la pipe">
-        <p>“Nature morte à la pipe”, Soutine, 1916</p>
+        <p>“Nature morte à la pipe” <br> Soutine, 1916</p>
     </article>
 
     <article class="oeuvre">
         <img src="images_site/femme-polonaise.jpeg" alt="tableau Soutine - Femme polonaise">
-        <p>“Femme polonaise”, Soutine, 1935</p>
+        <p>“Femme polonaise”<br> Soutine, 1935</p>
     </article>
 
     <article class="oeuvre">
         <img src="images_site/voiliers-au-mouillage.jpg" alt="tableau Kikoine - Voiliers au mouillage">
-        <p>“Voiliers au mouillage”, Kikoine, non daté</p>
+        <p>“Voiliers au mouillage”<br> Kikoine, non daté</p>
     </article>
 
     <article class="oeuvre">
         <img src="images_site/nature-morte.jpg" alt="tableau Kikoine - Nature morte">
-        <p>“Nature Morte”, Kikoine, 1915</p>
+        <p>“Nature Morte”<br> Kikoine, 1915</p>
     </article>
 
     <article class="oeuvre">
         <img src="images_site/femme-en-robe-noire.jpg" alt="tableau Modigliani - Femme en robe noire">
-        <p>“Femme en robe noire”, Modigliani, non daté</p>
+        <p>“Femme en robe noire”<br> Modigliani, non daté</p>
     </article>
 
     <article class="oeuvre">
         <img src="images_site/autoportrait.jpg" alt="tableau Modigliani - Autoportrait">
-        <p>“Autoportrait”, Modigliani, 1919</p>
+        <p>“Autoportrait”<br> Modigliani, 1919</p>
     </article>
 </section>
 
@@ -72,31 +80,31 @@
 <section id="contact">
     <h2>Contact</h2>
     <h3>Formulaire de contact</h3>
-    <form action="/action_page.php" method="post">
-        <label for="prénom">Prénom :</label><br>
-        <input type="text" id="prénom" name="prénom" placeholder="Prénom"><br>
+    <form action="index.php" method="post">        
+        <input type="text" id="nom" name="nom" placeholder="Votre nom"><br>       
+        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom"><br>        
+        <input type="email" id="mail" name="mail" placeholder="Votre adresse mail"><br>
+        <input type="checkbox" id="newsletter" name="newsletter"> Accepte de recevoir les Newsletters<br>
 
-        <label for="nom">Nom :</label><br>
-        <input type="text" id="nom" name="nom" placeholder="Nom"><br>
-
-        <label for="mail">Mail :</label><br>
-        <input type="email" id="mail" name="mail" placeholder="Mail"><br>
-
-        <label for="newsletter">
-        <input type="checkbox" id="newsletter" name="newsletter"> Accepte de recevoir les Newsletters</label><br>
-
-        <input type="submit" value="ENVOYER">
+        <div>
+            <input type="submit" value="ENVOYER">
+        </div>
     </form>
 </section>
 
 <footer>
     <address>
         <p>Email: <a href="mailto:dedal@gmail.com">dedal@gmail.com</a></p>
-        <p>Téléphone: 01.63.45.85.56</p>
-        <p>Fax: 01.63.45.78.52</p>
-        <p>Adresse : 10 Rue de la République, 75000 Paris</p>
+        <p style="text-align: right;">Adresse : 10 Rue de la République, 75000 Paris</p> 
+        <p style="margin-top: -50px;">Téléphone: 01.63.45.85.56</p>               
+        <p>Fax: 01.63.45.78.52</p>        
     </address>
-</footer>
+        
+    </address>
 
+    
 </body>
 </html>
+
+   
+  
