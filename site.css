@@ -175,11 +175,6 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #567ba6;
 }
-/* Style spécifique pour aligner le checkbox avec le texte */
-        .checkbox-group {
-            display: flex;
-            align-items: center;
-            gap: 8px; /* Espacement entre la case et le texte */
 
 /* Footer */
 footer {
