@@ -198,9 +198,15 @@ footer address a:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    h1{
+       font-size: 25px; 
+    }
     nav ul {
-        flex-direction: column;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+
     }
 
     article.oeuvre {
