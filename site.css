@@ -222,8 +222,8 @@ footer address a:hover {
     }
 
     article.oeuvre {
-        width: 60%;
-        margin-bottom: 20px;
+        width: 95%;
+        margin: 20px 5px;
     }
 
     footer address {
