@@ -9,14 +9,6 @@
 </head>
 <body>
 
-<!-- Verif newsletters -->
-<script>
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.has('success')) {
-        alert('Votre demande de newsletters a été prise en compte !');
-    }
-</script>
-
 <!-- Page d'accueil -->
 <header>
     <img id="logo" src="images_site/Logo.png" alt="Logo de la galerie Dedal des couleurs"> 
@@ -80,31 +72,13 @@
 <!-- Page contact -->
 <section id="contact">
     <h2>Contact</h2>
-    <h3>Formulaire d'inscription</h3>
-    <form action="index.php" method="post">
-        <!-- Champ "Nom" -->
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" placeholder="Votre nom">
-        <br>
+    <h3>Formulaire de contact</h3>
+    <form action="index.php" method="post">        
+        <input type="text" id="nom" name="nom" placeholder="Votre nom"><br>       
+        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom"><br>        
+        <input type="email" id="mail" name="mail" placeholder="Votre adresse mail"><br>
+        <input type="checkbox" id="newsletter" name="newsletter"> Accepte de recevoir les Newsletters<br>
 
-        <!-- Champ "Prénom" -->
-        <label for="prenom">Prénom :</label>
-        <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
-        <br>
-
-        <!-- Champ "Adresse mail" -->
-        <label for="mail">Adresse mail :</label>
-        <input type="email" id="mail" name="mail" placeholder="Votre adresse mail">
-        <br>
-
-        <!-- Champ "Newsletter" -->
-        <div class="checkbox-group">
-            <input type="checkbox" id="newsletter" name="newsletter">
-            <label for="newsletter">Accepter de recevoir les newsletters</label>
-        </div>
-        <br>
-
-        <!-- Bouton d'envoi -->
         <div>
             <input type="submit" value="ENVOYER">
         </div>
